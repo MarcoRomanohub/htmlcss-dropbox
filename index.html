@@ -65,25 +65,65 @@
 
     <section id="plans">
       
-      <!-- TODO: mt-m da togliere? -->
-      <div class="small-container debug mt-m">
+      <div class="small-container">
         <h3>Trova il piano business che fa per te</h3>
-        <input type="radio"> <label for="fatturazione mensile">Fatturazione mensile</label>
-        <input type="radio"> <label for="fatturazione mensile">Fatturazione annuale</label>
+        <div class="radio-btn d-flex mt-xs">
+          <input type="radio" checked> <label for="fatturazione mensile">Fatturazione mensile</label>
+          <input type="radio"> <label for="fatturazione mensile">Fatturazione annuale</label>
+        </div>
 
-        <div class="plan-selection">
+        <div class="plan-selection mt-s">
 
           <div class="plan-columns d-flex">
-            <div class="plan-col debug">
-              <div class="plan-name debug">Singolo</div>
+            <div class="plan-col border-slim">
+              <!-- TODO:POTREI LEVARE IL BORDER SLIM E METTERE BORDER BOTTOM -->
+              <div class="plan-name border-slim">
+                <i class="fa-solid fa-user"></i>
+                <span>Singolo</span>
+              </div>
+              <div class="col-content">
+                <ul class="plan-type">
+                  <li><h4>Professional</h4></li>
+                  <li><h6>€ 12.00</h6></li>
+                  <li><span>/mese</span></li>
+                </ul>
+
+                <ul class="description mt-s">
+                  <li class="d-flex">
+                    <span><i class="fa-solid fa-user"></i></span>
+                    <span>1 utente</span>
+                  </li>
+                  <li class="d-flex">
+                    <span><i class="fa-solid fa-folder"></i></span> 
+                    <span>5 TB di spazio di archiviazione sicuro</span>
+                  </li>
+                  <li class="d-flex">
+                    <span><i class="fa-solid fa-share-nodes"></i></span> 
+                    <span>Funzioni di produttività premium e condivisione file semplice e sicura</span>
+                  </li>
+                </ul>
+
+                <ul class="mt-s">
+                  <li><a href="#" class="btn">Prova gratis per 30 giorni</a></li>
+                  <li class="mt-xs"><span>oppure <a href="#">acquista ora</a></span></li>
+                  <li><hr></li>
+                </ul>
+                  
+              </div>
             </div>
 
-            <div class="plan-col debug">
-              <div class="plan-name debug">Team</div>
+            <div class="plan-col border-slim">
+              <div class="plan-name border-slim">
+                <i class="fa-solid fa-people-group"></i>
+                <span>Team</span>
+              </div>
             </div>
               
-            <div class="plan-col debug">
-              <div class="plan-name debug">Azienda</div>
+            <div class="plan-col border-slim">
+              <div class="plan-name border-slim">
+                <i class="fa-solid fa-building"></i>
+                <span>Azienda</span>
+              </div>
             </div>
           </div>
 

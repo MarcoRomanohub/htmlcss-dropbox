@@ -35,6 +35,9 @@ a{
 .mt-xs{
   margin-top: 25px;
 }
+.font-s{
+  font-size: .8rem;
+}
 .border-slim{
   border: 1px solid #DEDEE1;
 }
@@ -127,16 +130,30 @@ h2{
 }
 .mini-container i{
   font-size: 2.5rem;
-  margin-top: 50px;
+  /* FIXME: mettere position absolute bottom e non margin top */
+  margin-top: 65px;
 }
 .jumbo{
+  /* FIXME: Sistemare comportamento */
   width: 665px;
   position: absolute;
   right: 0;
   top: 262px;
 }
 
-/* Plans Section */
+/* Plans */
+.small-container h3{
+  font-size: 2rem;
+}
+.radio-btn input{
+  margin-right: 5px;
+}
+.radio-btn label{
+  margin-right: 40px;
+}  
+.small-container label {
+  font-size: .7rem;
+}
 .plan-columns{
   justify-content: space-between;
 }
@@ -146,9 +163,37 @@ h2{
 }
 .plan-name{
   text-align: center;
-  padding: 5px;
+  padding: 8px;
+  font-size: .7rem;
 } 
 .plan-row{
   height: 200px;
   width: 100%;
+}
+.col-content{
+  width: 85%;
+  margin: 30px auto;
+}
+.col-content ul{
+  list-style: none;
+}
+.col-content h4{
+  font-size: 1.2rem;
+}
+.col-content ul span{
+  font-size: .7rem;
+  margin-right: 5px;
+}
+ul.plan-type :nth-child(3){
+  /* font-size: .7rem; */
+  opacity: 60%;
+}
+.col-content ul h4{
+  margin-bottom: 15px;
+}
+.col-content ul h6{
+  margin-bottom: 8px;
+}
+.col-content .description li{
+  margin-bottom: 20px;
 }
