@@ -167,12 +167,13 @@ h2{
   font-size: .7rem;
 } 
 .plan-row{
-  height: 200px;
+  height: 220px;
   width: 100%;
 }
 .col-content{
   width: 85%;
   margin: 30px auto;
+  position: relative;
 }
 .col-content ul{
   list-style: none;
@@ -192,8 +193,34 @@ ul.plan-type :nth-child(3){
   margin-bottom: 15px;
 }
 .col-content ul h6{
-  margin-bottom: 8px;
+  margin-bottom: 5px;
 }
 .col-content .description li{
   margin-bottom: 20px;
+}
+ul hr{
+  width: 20%;
+  opacity: 60%;
+  margin-top: 30px;
+}
+ul.highlights li:first-child{
+  margin-bottom: 25px
+}
+.highlights li{
+  margin-bottom: 15px ;
+}
+.highlights span i{
+  color: #065FF6;
+}
+
+/* RIGA PLAN */
+.plan-row .plan-type :nth-child(3){
+  margin-top: 40px;
+}
+.plan-row .btn{
+  width: calc(90%/3);
+  text-align: center;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
