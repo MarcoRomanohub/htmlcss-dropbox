@@ -224,3 +224,42 @@ ul.highlights li:first-child{
   right: 0;
   top: 0;
 }
+
+/* SECTION PARTNER */
+#partner .img-partner{
+  width: 60%;
+}
+#partner .text-partner{
+  width: 40%;
+  margin: 40px;
+  /* line-height: 1.6rem; */
+}
+.text-partner h4{
+  font-size: 1.2rem;
+}
+.text-partner p{
+  font-size: .8rem;
+  margin-top: 15px;
+}
+.text-partner a{
+  background-color: white;
+  color: black;
+  padding:8px 12px;
+  border: 1px solid rgba(0, 0, 0, 0.465);
+}
+/* SECTION OPERATIONS */
+.operations-row{
+justify-content: space-between;
+}
+.operations-row .card{
+  width: calc(90%/3);
+  height: 300px;
+  margin-top: 30px;
+}
+.card p{
+  font-size: .8rem;
+  margin-top: 25px;
+}
+.card h4{
+  font-size: 1.2rem;
+}
