@@ -95,7 +95,7 @@ header nav a{
   height: 71px;
 }
 nav a:hover{
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid black;
 }
 /* MAIN */
 main{
@@ -308,10 +308,21 @@ justify-content: space-between;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 .box-row div img{
   filter: invert(1);
   width: 120px;
+}
+.box-row .box-shadow{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  box-shadow: 0 0 0 10px  rgba(255, 255, 255, 0.375) inset;
+  display: none;
+}
+.box-row div:hover .box-shadow{
+  display: block;
 }
 .box-uno .box-row #designit{
   background-color: #A2D39B;
