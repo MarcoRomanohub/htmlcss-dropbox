@@ -110,7 +110,7 @@ main{
   min-width: 790px;
   /* height: 800px; */
   margin:  auto;
-  margin-top: 150px;
+  margin-top: 120px;
 }
 .mini-container{
   width: 32%;
@@ -271,6 +271,9 @@ justify-content: space-between;
   font-size: .8rem;
   text-decoration: underline;
 }
+#customers .small-container{
+  padding-top: 100px;
+}
 .box{
   /* height: 500px; */
   width: 100vw;
@@ -288,4 +291,95 @@ justify-content: space-between;
   width: 50%;
   height: 50%;
   aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+.box-row div img{
+  filter: invert(1);
+  width: 120px;
+}
+.box-uno .box-row #green{
+  background-color: #A2D39B;
+}
+.box-uno .box-row #bordeaux{
+  background-color: #61142B;
+}
+.box-uno .box-row #lightblue{
+  background-color: #3694CE;
+}
+.box-uno .box-row #red{
+  background-color: #ED3833;
+}
+.box-due{
+  background-color: #F5F5F5;
+}
+.box-due img{
+  width: 200px;
+}
+.box-due > div{
+  width: 90%;
+  margin: 30px auto;
+}
+.box-due hr{
+  width: 17%;
+  margin: 30px 0;
+}
+.box-due p, .box-due span{
+  font-size: .8rem;
+  margin-bottom: 40px;
+}
+.box-tre .box-row #dark-red{
+  background-color: #D6312D;
+}
+.box-tre .box-row #hearst{
+  background-color: #B4D0E7;
+}
+.box-tre .box-row #lonely-planet{
+  background-color: #0D2481;
+}
+.box-tre .box-row #clear-channel{
+  background-color: #FCD94B;
+}
+/* SECTION CTA */
+#cta{
+  height: 280px;
+  background-color: #B4D0E7;
+  align-items: center;
+}
+#cta h3{
+  color: #631D36;
+}
+#cta .small-container{
+  margin: 0 auto;
+  justify-content: space-between;
+}
+#cta .small-container .btn{
+  padding: 8px 35px;
+  position: relative;
+  top: 10px;
+  background-color: white;
+  color: black;
+}
+/* SECTION FAQ */
+#faq{
+  height: 560px;
+}
+#faq .small-container{
+  position: relative;
+}
+#faq .small-container h3{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.399);
+  height: 90px;
+}
+#faq .small-container h5{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.283);
+  height: 50px;
+  margin-top: 30px;
+}
+#faq .small-container h5 span{
+  position: absolute;
+  right: 30px;
+  font-size: .8rem;
+}
+/* FOOTER */
