@@ -58,7 +58,7 @@ header{
   background-color: white;
   z-index: 999;
 }
-nav{
+header nav{
   height: 100%;
   display: flex;
   justify-content: space-between;
@@ -363,7 +363,7 @@ justify-content: space-between;
 }
 /* SECTION FAQ */
 #faq{
-  height: 560px;
+  height: 450px;
 }
 #faq .small-container{
   position: relative;
@@ -383,3 +383,43 @@ justify-content: space-between;
   font-size: .8rem;
 }
 /* FOOTER */
+footer{
+  height: 444px;
+  background-color: black;
+  color: white;
+}
+footer nav{
+  display: flex;
+  padding-top: 80px;
+}
+footer h4{
+  font-size: 1.2rem;
+}
+footer ul{
+  list-style: none;
+  margin-top: 20px;
+  line-height: 2rem;
+}
+footer hr{
+  width: 100px;
+  color: rgba(255, 255, 255, 0.252);
+  position: absolute;
+  bottom: 100px;
+  left: 20px;
+}
+footer li a{
+  color: rgba(255, 255, 255, 0.931);
+  font-size: .8rem;
+  font-weight: bold;
+}
+footer nav div{
+margin-left: 20px;
+height: 260px;
+}
+footer span{
+  font-size: .8rem;
+  color: rgba(255, 255, 255, 0.538);
+  position: relative;
+  left: 22px;
+  top: 40px;
+}
