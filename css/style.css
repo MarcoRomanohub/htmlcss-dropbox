@@ -14,7 +14,7 @@ body{
   font-variation-settings:
     "wdth" <width>;
 } 
-a{
+a {
   text-decoration: none;
 }
 /* Custom Properties */
@@ -78,7 +78,7 @@ nav{
   display: flex;
   align-items: center;
 }
-nav li, nav a{
+nav li, nav a {
   list-style: none;
   text-decoration: none;
   color: black;
@@ -166,6 +166,9 @@ h2{
   padding: 8px;
   font-size: .7rem;
 } 
+.col-content span a {
+  text-decoration: underline;
+}
 .plan-row{
   height: 220px;
   width: 100%;
@@ -241,7 +244,7 @@ ul.highlights li:first-child{
   font-size: .8rem;
   margin-top: 15px;
 }
-.text-partner a{
+.text-partner a {
   background-color: white;
   color: black;
   padding:8px 12px;
@@ -262,4 +265,22 @@ justify-content: space-between;
 }
 .card h4{
   font-size: 1.2rem;
+}
+/* SECTION CUSTOMERS */
+#customers .small-container a {
+  font-size: .8rem;
+  text-decoration: underline;
+}
+.box{
+  height: 500px;
+}
+.box > div{
+  width: calc(100% / 3);
+}
+.box-row{
+  height: 50%;
+  /* width: 100%; */
+}
+.box-row div{
+  width: 50%;
 }
