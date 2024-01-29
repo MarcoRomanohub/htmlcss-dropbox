@@ -69,6 +69,9 @@ header nav{
   padding: 6px 12px;
   font-size: .8rem;
 }
+header .btn{
+  height: 100%;
+}
 .menu-left img{
   width: 105px;
   margin-top: 4px;
@@ -94,7 +97,7 @@ header nav a{
   align-items: center;
   height: 71px;
 }
-nav a:hover{
+nav a:hover:not(.btn){
   border-bottom: 2px solid black;
 }
 /* MAIN */
